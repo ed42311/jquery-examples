@@ -1,7 +1,10 @@
 $(document).ready(function(){
+
+  // dont do this -> Bad times!!!
   $("#bruce-pic").css('border-radius', '2px');
   $("#bruce-pic").css('border', 'darkgrey 3px solid');
   $("#bruce-pic").css('margin-left', '20px');
+
   $(".hidden-start").hide();
 
   $("#title-text")
